@@ -1,1 +1,1 @@
-# sorting-algorithm-analysis
+# sorting-algorithms-analysis
