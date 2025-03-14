@@ -1,4 +1,5 @@
 #include "../include/time_measurement.h"
+#include "../include/insertion_sort.h"
 #include <time.h>
 
 

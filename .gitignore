@@ -1,4 +1,5 @@
-output/
+output/*
 !output/*.png
 *.o
 insertion_sort
+*.pdf
