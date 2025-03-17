@@ -7,7 +7,7 @@ CC = gcc
 CFLAGS = -Wall -Iinclude
 
 # List of source files (.c files)
-SRC = src/main.c src/insertion_sort.c src/test_cases.c src/time_measurement.c src/gnuplot_script.c
+SRC = src/main.c src/insertion_sort.c src/test_cases.c src/time_measurement.c src/gnuplot_script.c src/selection_sort.c
 
 # List of object files (.o files) automatically generated from source files
 # This replace each .c file extension with .o

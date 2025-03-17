@@ -3,6 +3,7 @@
 #include "../include/test_cases.h"
 #include "../include/time_measurement.h"
 #include "../include/gnuplot_script.h"
+#include "../include/selection_sort.h"
 
 int main()
 {
@@ -61,6 +62,7 @@ int main()
     
     // Running Gnuplot from C
     system("gnuplot output/insertion_plot.gnuplot");
+
 
     return 0;
 }
