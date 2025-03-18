@@ -3,3 +3,5 @@ output/*
 *.o
 insertion_sort
 *.pdf
+*.txt
+*.md

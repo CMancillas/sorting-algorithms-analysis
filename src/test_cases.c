@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <time.h>
 
-double best_case(int arr[], int length)
+double best_case(int arr[], int length, int option)
 {
     for(int i = 0; i < length; i++)
     {
@@ -12,10 +12,10 @@ double best_case(int arr[], int length)
     }
 
     // Calculate time taken by insertion_sort()
-    return measure_time(arr, length);
+    return measure_time(arr, length, option);
 }
 
-double average_case(int arr[], int length)
+double average_case(int arr[], int length, int option)
 {
     srand(time(NULL));
     for ( int i = 0; i < length; i++)
@@ -23,10 +23,10 @@ double average_case(int arr[], int length)
         arr[i] = rand() % length + 1;
     }
 
-    return measure_time(arr, length);
+    return measure_time(arr, length, option);
 }
 
-double worst_case(int arr[], int length)
+double worst_case(int arr[], int length, int option)
 {
     int length_size = length;
 
@@ -36,5 +36,5 @@ double worst_case(int arr[], int length)
         length_size--;
     }
 
-    return measure_time(arr, length);
+    return measure_time(arr, length, option);
 }

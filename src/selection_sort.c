@@ -1,10 +1,8 @@
 #include "../include/selection_sort.h"
-#include "../include/insertion_sort.h"
+#include "../include/print_array.h"
 #include <stdio.h>
 void selection_sort(int arr[], int length)
 {
-    print_array(arr,length);
-    // [7, 3, 6, 9]
     for ( int i = 0; i < length - 1; i++)
     {
         int lowest_index = i;
@@ -22,6 +20,5 @@ void selection_sort(int arr[], int length)
         arr[i] = lowest;
     }
 
-    print_array(arr, length);
 }
 
